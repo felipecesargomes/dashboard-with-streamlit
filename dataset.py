@@ -5,7 +5,6 @@ file = open('data/vendas.json')
 data = json.load(file)
 
 df = pd.DataFrame.from_dict(data)
-
-print(df['Data da Venda'])
+df['data_compra'] = pd.to_datetime(df['data_compra'], format='%d/%m/%Y')
 
 file.close()

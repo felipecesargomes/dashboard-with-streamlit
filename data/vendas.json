@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "data_compra": "2024-01-15",
+    "data_compra": "15/01/2024",
     "produto": "Notebook Dell",
     "quantidade": 2,
     "preco_unitario": 3500.00,
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "data_compra": "2024-01-18",
+    "data_compra": "18/01/2024",
     "produto": "Mouse Logitech",
     "quantidade": 5,
     "preco_unitario": 85.00,
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "data_compra": "2024-01-20",
+    "data_compra": "20/01/2024",
     "produto": "Teclado Mecânico",
     "quantidade": 3,
     "preco_unitario": 450.00,
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "data_compra": "2024-01-22",
+    "data_compra": "22/01/2024",
     "produto": "Monitor LG 27\"",
     "quantidade": 1,
     "preco_unitario": 1200.00,
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "data_compra": "2024-01-25",
+    "data_compra": "25/01/2024",
     "produto": "Webcam HD",
     "quantidade": 4,
     "preco_unitario": 150.00,
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "data_compra": "2024-02-01",
+    "data_compra": "01/02/2024",
     "produto": "Headphone Bluetooth",
     "quantidade": 6,
     "preco_unitario": 200.00,
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "data_compra": "2024-02-05",
+    "data_compra": "05/02/2024",
     "produto": "SSD 1TB",
     "quantidade": 2,
     "preco_unitario": 500.00,
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "data_compra": "2024-02-10",
+    "data_compra": "10/02/2024",
     "produto": "RAM 16GB",
     "quantidade": 3,
     "preco_unitario": 280.00,
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "data_compra": "2024-02-15",
+    "data_compra": "15/02/2024",
     "produto": "Mousepad Grande",
     "quantidade": 10,
     "preco_unitario": 50.00,
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "data_compra": "2024-02-20",
+    "data_compra": "20/02/2024",
     "produto": "Ventilador RGB",
     "quantidade": 4,
     "preco_unitario": 120.00,
