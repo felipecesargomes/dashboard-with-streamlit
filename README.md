@@ -15,6 +15,7 @@ Projeto educacional de um dashboard que exibe:
 dashboard-with-streamlit/
 ├── app.py              # Aplicação Streamlit principal
 ├── dataset.py          # Carregamento e processamento de dados
+├── utils.py            # Funções utilitárias (formatação de números)
 ├── data/
 │   └── vendas.json     # Dados fictícios de vendas
 ├── .venv/              # Ambiente virtual Python
@@ -100,13 +101,15 @@ A aplicação abrirá no navegador em `http://localhost:8501`
 ## 📑 Funcionalidades
 
 ### Aba 1: Dataset
-Exibe a tabela completa com todos os registros de vendas.
+Exibe a tabela completa com todos os registros de vendas em formato interativo.
 
 ### Aba 2: Receita
-(A implementar) Gráficos e análises de receita por período, região ou produto.
+Mostra métricas importantes:
+- Receita Total (formatada com conversão para milhões/mil quando necessário)
+- Quantidade de Vendas
 
 ### Aba 3: Vendedores
-(A implementar) Rankings e desempenho dos vendedores.
+(A implementar) Rankings e desempenho dos vendedores por região.
 
 ## 📝 Arquivos Principais
 
@@ -120,7 +123,11 @@ Arquivo principal da aplicação Streamlit que configura:
 Script que:
 - Lê dados do arquivo JSON
 - Converte para DataFrame Pandas
-- Processa coluna de data com formato correto
+- Processa coluna de data com formato correto (DD/MM/YYYY)
+
+### `utils.py`
+Contém funções utilitárias:
+- `format_number()` - Formata números com prefixo (R$) e conversão automática para mil/milhões
 
 ## 🔧 Configuração
 
@@ -128,10 +135,11 @@ O dashboard utiliza layout `wide` para melhor aproveitamento da tela.
 
 ## 📈 Próximas Melhorias
 
-- [ ] Implementar gráficos de receita
-- [ ] Adicionar filtros interativos
-- [ ] Criar rankings de vendedores
-- [ ] Adicionar mais métricas (ticket médio, volume, etc)
+- [ ] Implementar gráficos de receita por período
+- [ ] Adicionar filtros interativos por período e região
+- [ ] Criar rankings de vendedores na aba 3
+- [ ] Adicionar mais métricas (ticket médio, produto mais vendido, etc)
+- [ ] Criar visualizações com Plotly (gráficos de linha, barras, pizza)
 - [ ] Exportar relatórios em PDF
 
 ## 📄 Licença
